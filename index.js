@@ -107,6 +107,7 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", async (message) => {
+    
   // Ignore messages from bots or without content
   if (message.author.bot || !message.content) return;
 
